@@ -29,18 +29,25 @@ public class LoginPage extends TestBase {
 	public void verifySwglablogin_logo() {
 		Assert.assertTrue(LoginLogo.isDisplayed(), "Login logo is not displayed");
 		Reporter.log("verifySwglablogin_logo", true);
+		System.out.println("This is new change");
 	}
 
 	public void verifySwagLabsUsernameTextbox() {
 		Assert.assertTrue(UsernameTextbox.isEnabled(), "UsernameTextbox is not Enabled");
 		Assert.assertTrue(UsernameTextbox.isDisplayed(), "UsernameTextbox is not displayed");
 		Reporter.log("verifySwagLabsUsernameTextbox", true);
+		System.out.println("This is new change");
+		System.out.println("This is new change");
 	}
 
 	public void verifySwagLabsPasswordTextbox() {
 		Assert.assertTrue(PasswordTextbox.isEnabled(), "PasswordTextbox is not Enabled");
 		Assert.assertTrue(PasswordTextbox.isDisplayed(), "PasswordTextbox is not displayed");
 		Reporter.log("verifySwagLabsPasswordTextbox", true);
+		System.out.println("This is new change");
+		System.out.println("This is new change");
+		System.out.println("This is new change");
+		System.out.println("This is new change");
 	}
 
 	public void verifySwagLabsLoginBtn() {
